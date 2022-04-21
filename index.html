@@ -22,27 +22,56 @@
         <div class="boxen">
           <h3>Wie lade ich etwas hoch?</h3>
           <ol>
-            <li>git add *</li>
-            <li>git commit -m "<span>commit-Nachricht</span>"</li>
-            <li>git push</li>
+            <li>
+              git add * (Statt des Sternchens können auch gezielt Dateien
+              genannt werden, die hochgeladen werden sollen.
+            </li>
+            <li>
+              git commit -m "<span>NACHRICHT</span>" (Hier dann verständliche
+              Erklärungen für die anderen Entwickler*innen als Nachricht
+              dalassen.)
+            </li>
+            <li>git push (Dieser Befehl lädt die Dateien dann hoch.)</li>
           </ol>
         </div>
         <div class="boxen">
           <h3>Branch</h3>
           <ul>
-            <li>git branch</li>
-            <li>git checkout <span></span></li>
-            <li>x</li>
-            <li>x</li>
+            <li>
+              git branch <span>NAME</span> (Um eine neue Branch zu erstellen.)
+            </li>
+            <li>
+              git push -u origin <span>NAME</span> (Damit pushed man die neu
+              erstellte Branch in GitHub.)
+            </li>
+            <li>
+              git branch (Um die Branch anzuzeigen, in der man aktuell
+              arbeitet.)
+            </li>
+            <li>
+              git checkout <span>BRANCH NAME</span> (Um den Branch zu wechseln,
+              in dem man Arbeitet.)
+            </li>
+            <li>
+              git pull (Um den aktuellen Stand des des Masters/der Branch in
+              Visual Studio zu laden. Darauf achten, in welcher Branch man sich
+              befindet.)/li>
+            </li>
           </ul>
         </div>
         <div class="boxen">
           <h3>Merge</h3>
           <ul>
-            <li>git branch</li>
-            <li>git checkout <span></span></li>
-            <li>x</li>
-            <li>x</li>
+            <li>
+              git merge <span>BRANCH NAME</span> (Um den Arbeitsstand eines
+              Branches in den Master zu implementieren. Dafür muss man sich im
+              Master befinden)
+            </li>
+            <li>
+              git merge origin/master (Um in die eigene Branch die aktuelle
+              Version aus dem Master zu laden. Dafür muss man sich dann auch in
+              der eigenen Branch befinden.)
+            </li>
           </ul>
         </div>
         <!-- <li>
